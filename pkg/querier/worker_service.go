@@ -21,7 +21,7 @@ import (
 
 type WorkerServiceConfig struct {
 	AllEnabled            bool
-	ReadEnabled            bool
+	ReadEnabled           bool
 	GrpcListenPort        int
 	QuerierMaxConcurrent  int
 	QuerierWorkerConfig   *querier_worker.Config
