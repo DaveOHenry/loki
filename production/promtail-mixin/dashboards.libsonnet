@@ -1,6 +1,6 @@
 local g = import 'grafana-builder/grafana.libsonnet';
 local utils = import 'mixin-utils/utils.libsonnet';
-local loki_mixin_utils = import 'loki-mixin/dashboards/dashboard-utils.libsonnet';
+local loki_mixin_utils = import 'dashboard-utils.libsonnet';
 
 {
   grafanaDashboards+: {
